@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navback{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+.navbar{
+    height: 75px;
+    width: 1065px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.navlogo{
+    background-image: url("logo.jpg");
+    height: 75px;
+    width: 180px;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navright{
+    height: 75px;
+    width: 535px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+.items{
+    font-family: sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+}
+.items:hover{
+    color: #BFC500;
+}
+@media (max-width:575px) {
+    .navbar{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .navright{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .items{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .logo{
+        flex-shrink: 1;
+    }
+}
+@media (max-width: 767px) {
+    .navbar{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .navright{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .items{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+.herosection{
+    height: 670px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+.heroimg{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 100vh;
+    width:1063px ;
+    background-position: center;
+}
+@media (max-width: 575px) {
+       .heroimg{
+        flex-shrink: 3;
+        margin-top: 50px;
+       }
+}
+@media (max-width: 991px) {
+    .heroimg{
+        flex-shrink: 3;
+        margin-top: 50px;
+       }
+}
+@media (max-width: 767px) {
+    .heroimg{
+        flex-shrink: 3;
+        margin-top: 50px;
+       }
+}
+.main1{
+    height: 420px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.maininside{
+    height: 420px;
+    width: 1003px;
+    display: flex;
+}
+.well{
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.txt1{
+    width: 647px;
+    height: 420px;
+    margin-top: 60px;
+}
+.bay1{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-right: 140px;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 1.23rem;
+    word-spacing: 6.2px;
+    padding-top: 37px;
+}
+.imgsec1{
+    height: 420px;
+    width: 170px;
+}
+.first1{
+    background-image: url("ap1.jpg");
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+.second1{
+    background-image: url("ap3.jpg");
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.imgsec2{
+    height: 370px;
+    width: 170px;
+}
+.first2{
+    background-image: url("ap2.jpg");
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    border-radius: 7px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.second2{
+    background-image: url("ap4.jpg");
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+@media (max-width: 1000px) {
+    .imgsec1{
+        display: none;
+    }
+    .imgsec2{
+        margin-top: 35px;
+        margin-right: 110px;
+    }
+   
+    .txt1{
+        margin-left: 70px;
+    }
+    .maininside{
+        height: 450px;
+        background-color: black;
+    }
+}
+@media (max-width:710px){
+    .navback{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
+@media (max-width:710px){
+    .imgsec2{
+        display: none;
+    }
+}
+@media (max-width:990){
+    .navback{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .herosection{
+        width: 100%;
+    }
+}
+.faird{
+    height: 400px ;
+    background-color: black;
+}
+.dis{
+    font-size:25px ;
+    font-family: sans-serif;
+    color: #BFC500;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    font-weight: 100;
+    padding-top: 35px;
+    margin-left: 85px;
+}
+.ponzi{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left: 85px;
+    padding-top: 25px;
+}
+.para{
+    height: 70.67px;
+    width: 1300px;
+    display: flex;
+    align-items: center
+    justify-content: space-evenly;
+}
+.one{
+    height:31px ;
+    width: 530px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 85px;
+    padding-top: 35px;
+   
+}
+.two{
+    height: 46px;
+    width: 314px ;
+    color: white;
+    font-size: 11px;
+    margin-top: 27px;
+    margin-left: 175px;
+}
+.promo{
+    height: 111px ;
+    width: 1050px;
+    display: flex;
+    align-items: center;
+    background-color: #BFC500;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-left: 85px;
+}
+.buy{
+    font-size: 23px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 900;
+    
+}
+.parax{
+    font-size: 16px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    height: 58px;
+    width: 300px;
+}
+.button{
+    height: 75px;
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 30px;
+}
+button{
+    height: 75px;
+    width: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    color: #BFC500;
+    font-size: 16px;
+    font-weight: 680;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.button :hover{
+    background-color: #BFC500;
+    color: black;
+    border: none;
+    transition: all 1s ease-in-out;
+}
+.animationsec{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.ansec{
+    height:400px;
+    width: 1030px;
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.imgan{
+    height: 340px;
+    width: 340px;
+    background-image: url("mystery-ape.webp");
+    background-size: cover;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.txtan{
+    height: 340px;
+    width: 650px;
+}
+.specs{
+    font-size: 27.7px;
+    font-family: sans-serif ;
+    font-weight: 750;
+    padding-top: 43px;
+}
+.bored1{
+    font-size:16px ;
+    font-family: sans-serif;
+    line-height: 1.86rem;
+    word-spacing: 2px;
+    font-weight: 100;
+    padding-top: 17.5px;
+}
+.bored2{
+    font-size:16px ;
+    font-family: sans-serif;
+    line-height: 1.86rem;
+    word-spacing: 2px;
+    font-weight: 100;
+    padding-top: 14px;
+}
+.bored3{
+    font-size:16px ;
+    font-family: sans-serif;
+    line-height: 1.86rem;
+    word-spacing: 2px;
+    font-weight: 100;
+    padding-top: 14px;
+}
+.decor{
+    color: #BFC500;
+    text-decoration: none;
+    cursor: pointer;
+}
+.club{
+    height: 230px;
+    background-color: black;
+}
+.clubin{
+    background-color: black;
+    color: white;
+    height: 160px;
+    padding-top: 60px;
+}
+.welcum{
+    font-size:29.5px ;
+    font-family: sans-serif;
+    font-weight: 750;
+    word-spacing: 2px;
+    padding-left: 120px;
+}
+.wpara{
+    height: 100px;
+    width: 690px;
+    font-size:16px ;
+    font-family: sans-serif;
+    line-height: 1.59rem;
+    margin-top: 20px;
+    word-spacing: 3px;
+    margin-left: 120px;
+}
+@media (max-width: 991px) {
+   .imgan{
+    display: none;
+   }
+}
+@media (max-width: 575px) {
+    .imgan{
+        display: none;
+       }
+}
+/* .iconsback{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.iconsec{
+    width: 944px;
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.icon1{
+    background-image: url("icon1.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 180px;
+}
+.icon1text{
+    color: white;
+    font-size: 12.5px;
+    font-family: sans-serif;
+   width: 150px;
+    margin-top: 350px;
+}
+.icon2{
+    background-image: url("icon2.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 180px;
+}
+.icon3{
+    background-image: url("icon3.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 180px;
+}
+.icon4{
+    background-image: url("icon4.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 180px;
+}
+.icon5{
+    background-image: url("icon5.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 180px;
+    
+} */
