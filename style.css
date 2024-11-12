@@ -67,7 +67,6 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        
     }
     .navright{
         width: 100%;
@@ -424,56 +423,173 @@ button{
         display: none;
        }
 }
-/* .iconsback{
-    height: 380px;
-    width: 100%;
+.iconout{
+    height: 400px;
     display: flex;
     justify-content: center;
     background-color: black;
 }
 .iconsec{
-    width: 944px;
-    height: 380px;
+    background-color: black;
+    color: #ffffff;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1110px;
+    margin-top: 65px;
+}
+
+#imgicon{
+    height: 140px;
+    width: 90px;
+}
+.spanic{
+    width: 150px;
+}
+.textic{
+    padding-top: 20px;
+    font-size: 12.3px;
+    font-family: sans-serif;
+    font-family: 100;
+}
+.bathsec{
+    height: 390px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.bathin{
+    height: 390px;
+    background-color: black;
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+.bthlft{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.bthp{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.7rem;
+    padding-top: 15px;
+    word-spacing: 4px;
+}
+.heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 760;
+    letter-spacing: 0.3px;
+    padding-top: 30px;
+}
+#toilet{
+    height: 300px;
+    width: 162px;
+}
+.bthright{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roadmap1{
+    height: 200px;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headroad{
+    font-family: sans-serif;
+    font-weight: 750;
+    font-size: 29px;
+    word-spacing: 2.5px;
+    
+}
+.hdrd{
+    width: 980px ;
+}
+.rdmppara{
+    width: 980px ;
+}
+.xyx{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+.roadmap2{
+    height: 600px;
     display: flex;
     justify-content: space-evenly;
     background-color: black;
-    color: white;
 }
-.icon1{
-    background-image: url("icon1.jpg");
-    background-size: cover;
-    height: 350px;
-    width: 180px;
+.roadmap2in{
+    height: 600px;
+  background-color: black;
+  color: #ffffff;
+  width: 1000px;
+  display: flex;
+  padding-top: 35px;
+  justify-content: space-evenly;
 }
-.icon1text{
-    color: white;
-    font-size: 12.5px;
-    font-family: sans-serif;
-   width: 150px;
-    margin-top: 350px;
-}
-.icon2{
-    background-image: url("icon2.jpg");
-    background-size: cover;
-    height: 350px;
-    width: 180px;
-}
-.icon3{
-    background-image: url("icon3.jpg");
-    background-size: cover;
-    height: 350px;
-    width: 180px;
-}
-.icon4{
-    background-image: url("icon4.jpg");
-    background-size: cover;
-    height: 350px;
-    width: 180px;
-}
-.icon5{
-    background-image: url("icon5.jpg");
-    background-size: cover;
-    height: 350px;
-    width: 180px;
+.percentage{
+    color: #BFC500;
     
-} */
+}
+.secleft1{
+    height: 600px;
+    width: 30px;
+    font-weight: 650;
+    font-size: 16px;
+    line-height: 3.8rem;
+}
+.secleft2{
+    height: 600px;
+    width: 600px;
+   
+    line-height: 2.2rem;
+}
+.lines{
+    font-size: 16px;
+    font-weight: 550;
+    text-decoration: line-through;
+}
+.imgrd{
+    height: 600px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+#shirt{
+  height: 330px;
+  width: 330px ;
+  background-color: #BFC500;
+}
+@media (max-width:710px){
+    .bathin{
+    display: flex;
+    flex-direction: column;
+    }
+}
+@media (max-width:990){
+    .navback{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .herosection{
+        width: 100%;
+    }
+}
